@@ -1,4 +1,4 @@
-# Sample repository at https://github.com/Novfensec/SAMPLE-KIVYMD-APP
+b# Sample repository at https://github.com/Novfensec/SAMPLE-KIVYMD-APP
 # Tic Tac Toe Game at https://github.com/Novfensec/Tic-Tac-Toe-Android
 
 name: Android Build
@@ -21,7 +21,7 @@ jobs:
       # Used to cache dependencies with a timeout
       - name: Get Date
         id: get-date
-        run: |
+        run: buildozer
           echo "date=$(date -u '+%Y%m%d')" >> $GITHUB_ENV
         shell: bash
 
