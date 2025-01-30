@@ -1,2 +1,1 @@
-git clone https://github.com/Novfensec/Tic-Tac-Toe-Android.git
-cd Tic-Tac-Toe-Android
+kvdeveloper config-build-setup android --external github
